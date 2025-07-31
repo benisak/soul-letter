@@ -41,9 +41,10 @@ export default async function HomeLifeStyle() {
         <div className="pb-6 pt-8">
           {featuredPost.length >= 6 && (
             <>
-              <h2 className="text-[20px] md:text-[30px] font-roboto-serif font-bold md:font-semibold">
+              <h2 className="text-black-500 font-nunito-sans font-bold text-[20px] leading-normal md:text-[30px] md:leading-[36px]">
                 <strong>Recommended</strong>
               </h2>
+
 
               {/* 3-column grid – NO auto-rows-fr */}
               <div className="mb-10 mt-[32px] grid w-full gap-[32px] md:grid-cols-3">
@@ -96,7 +97,7 @@ export default async function HomeLifeStyle() {
         <div className="flex w-full justify-center pb-[56px] md:pb-[32px] pt-[24px]">
           <Link
             href="/archive"
-            className="relative inline-flex items-center justify-center gap-1 rounded-md border border-[#40749C] bg-white px-4 py-3 text-sm font-medium text-[#40749C] transition-colors duration-300 hover:bg-[#40749C] hover:text-white md:w-auto"
+            className="relative inline-flex items-center justify-center gap-1 rounded-md border border-[#46B69B] bg-white px-4 py-3 text-sm font-medium text-[#46B69B] transition-colors duration-300 hover:bg-[#46B69B] hover:text-white md:w-auto"
             style={{ fontSize: 16, fontWeight: 600 }}
           >
             See all content

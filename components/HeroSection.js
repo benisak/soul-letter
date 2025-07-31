@@ -13,7 +13,7 @@ const HeroSection = () => {
                       3xl:h-[600px] 
                       relative">
         <Image
-          src="/img/HS_SB1.png"
+          src="/img/HS_SL.png"
           alt="De todo Market"
           fill
           className="object-cover"
@@ -28,20 +28,20 @@ const HeroSection = () => {
                       lg:h-[550px] 
                       2xl:h-[480px] 
                       3xl:h-[600px] 
-                      md:bg-[#40749C] 
+                      md:bg-[#46B69B] 
                       bg-[#FFFFFF]
                       py-6 px-4 md:px-10 
                       flex flex-col justify-center">
         
         {/* === HEADING === */}
-        <div className="md:mt-0 mt-6 self-stretch mb-4
-                        text-[#40749C] font-roboto-serif text-[24px] font-extrabold leading-normal
-                        md:text-white md:text-[40px] md:font-semibold">
+        <div className="font-nunito-sans md:mt-0 mt-6 self-stretch mb-4
+                        text-[#1F1F1F] text-[24px] font-extrabold leading-normal
+                        md:text-white md:text-[40px] md:font-bold">
           Spiritual reads. <br/>Thoughtfully chosen
         </div>
 
         <div className="self-stretch">
-          <span className="text-[#40749C] text-lg font-normal leading-normal
+          <span className="text-[#7D7D7D] text-lg font-normal leading-normal
                            md:text-white md:text-xl">
             Discover meaningful reads that inspire reflection,
             <br className="hidden md:block" />

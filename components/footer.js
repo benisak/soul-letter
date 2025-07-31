@@ -54,10 +54,10 @@ export default async function Footer() {
             <div className="hidden lg:flex items-center space-x-1 mt-0">
               {/* SVG Logo  for desktop */}
               <Image
-                src="/img/soul_BL.svg"
+                src="/img/soul_L.svg"
                 alt="Logo"
-                width={132}
-                height={43}
+                width={203}
+                height={44}
                 priority={true}
               />
             </div>
@@ -66,10 +66,10 @@ export default async function Footer() {
             <div className="flex lg:hidden items-center space-x-1 mt-0">
               {/* SVG Logo for mobile */}
               <Image
-                src="/img/soul_BL.svg"
+                src="/img/soul_L.svg"
                 alt="Logo"
-                width={132}
-                height={43}
+                width={166}
+                height={36}
                 priority={true}
               />
             </div>
@@ -85,7 +85,7 @@ export default async function Footer() {
                 wordWrap: 'break-word',
               }}
             >
-              Soul booklist 2025. All rights reserved
+              Soul letter 2025. All rights reserved
             </div>
 
           </div>
@@ -137,13 +137,13 @@ export default async function Footer() {
             </div>
             
             {/* Number */}
-            <div className="text-[#799EB9] text-md font-semibold underline lg:self-end mb-4"> {/* Margin Bottom for 16px gap */}
+            <div className="text-[#46B69B] text-md font-semibold underline lg:self-end mb-4"> {/* Margin Bottom for 16px gap */}
               1 345 657 876
             </div>
             
             {/* Email */}
-            <div className="text-[#799EB9] text-md font-semibold underline lg:self-end">
-              <a href="mailto:hola@popcorncritics.com">hola@Soulbooklist.com</a>
+            <div className="text-[#46B69B] text-md font-semibold underline lg:self-end">
+              <a href="mailto:hola@soul-letter.com">hola@soul-letter.com</a>
             </div>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default async function Footer() {
         {/* Copyright for Mobile Inside Container */}
         <div className="block sm:hidden mt-6 mb-[16px]">
           <div className="text-[#FFF] text-sm font-normal leading-normal">
-          Soul booklist 2025. All rights reserved
+          Soul letter 2025. All rights reserved
           </div>
         </div>
 

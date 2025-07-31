@@ -12,18 +12,18 @@ export default async function NotFoundPage() {
   };
 
   return (
-    <div className="text-white bg-black">
+    <div className="text-black bg-white">
       <section style={{ padding: "2rem", textAlign: "center" }}>
-        <h1 className="text-white text-brand-primary text-3xl font-semibold tracking-tight dark:text-white lg:text-5xl lg:leading-tight mb-4">
-          Movies
+        <h1 className="text-black text-brand-primary text-3xl font-semibold tracking-tight dark:text-white lg:text-5xl lg:leading-tight mb-4">
+          Books
         </h1>
-        <p>0 Movies</p>
+        <p>0 Books</p>
       </section>
 
       <div
-        className="w-full max-w-[calc(100vw-32px)] sm:max-w-md md:max-w-[1185px] mx-auto py-6 bg-[#4B4B4B] rounded-lg md:mt-6 mt-4 flex justify-center items-center text-center text-lg font-bold break-words"
+        className="w-full max-w-[calc(100vw-32px)] sm:max-w-md md:max-w-[1185px] mx-auto py-6 text-[#4B4B4B] bg-[#F6F6F6] rounded-lg md:mt-6 mt-4 flex justify-center items-center text-center text-lg font-bold break-words"
       >
-        No movies found for this category. Try another category
+        No books found for this category. Try another category
       </div>
 
       <Container large>

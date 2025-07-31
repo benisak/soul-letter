@@ -16,7 +16,7 @@ export default async function SearchPage({ searchParams }) {
     <main className="bg-[#FFFFFF]">
       <div className="px-4 md:px-[160px]"> {/* Applied padding here */}
         <div className="pt-8 md:pt-14 flex items-center justify-center">
-          <h1 className="font-roboto-serif text-center text-Black-500 text-2xl md:text-4xl font-black">
+          <h1 className="font-nunito-sans text-center font-bold text-Black-500 text-2xl md:text-4xl">
             {query ? `Search results for "${query}"` : "Search"}
           </h1>
         </div>
@@ -29,7 +29,7 @@ export default async function SearchPage({ searchParams }) {
           </Suspense>
 
           {/* Centered Text Above Category List */}
-          <div className="text-[#1F1F1F] text-xl md:text-3xl text-[30px] font-bold break-words md:text-center mt-12 font-roboto-serif">
+          <div className="text-[#1F1F1F] text-xl md:text-3xl text-[30px] font-bold break-words md:text-center mt-12 font-nunito-sans">
             Or explore by category
           </div>
 

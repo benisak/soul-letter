@@ -5,7 +5,7 @@ export default function SubscriptionDesktop() {
     <div className="hidden w-full flex-col gap-6 rounded-lg bg-[#F1F6F9] p-6 lg:flex">
       {/* Heading Section */}
       <div className="flex flex-col gap-4">
-        <h3 className="font-roboto-serif text-xl font-bold text-black">
+        <h3 className="font-nunito-sans text-xl font-bold text-black">
           Suscribe now and get the best reviews
         </h3>
         <p className="text-base font-normal leading-6 text-black">
@@ -22,7 +22,7 @@ export default function SubscriptionDesktop() {
         />
         <button
           style={{ backgroundColor: "#FFFFFF" }}
-          className="border border-[#40749C] h-[51px] w-[101px] break-words rounded-lg text-[16px] font-semibold text-[#40749C] hover:opacity-90"
+          className="border border-[#46B69B] h-[51px] w-[101px] break-words rounded-lg text-[16px] font-semibold text-[#46B69B] hover:opacity-90"
         >
           Suscribe
         </button>

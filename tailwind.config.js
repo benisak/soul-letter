@@ -17,6 +17,7 @@ module.exports = {
         sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
         serif: ["var(--font-lora)", ...defaultTheme.fontFamily.serif],
         "roboto-serif": ["var(--font-roboto-serif)", ...defaultTheme.fontFamily.serif],
+        "nunito-sans": ["var(--font-nunito-sans)", ...defaultTheme.fontFamily.sans],
         stock: [defaultTheme.fontFamily.sans],
       },
       aspectRatio: {

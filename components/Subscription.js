@@ -23,7 +23,7 @@ const Subscription = () => {
 
   return (
 
-    <div className="w-full bg-[#F1F6F9] flex justify-center p-4 min-h-[246px]">
+    <div className="w-full bg-[#EFFAF7] flex justify-center p-4 min-h-[246px]">
       <div className="w-full max-w-7xl p-8 rounded-lg relative flex flex-col items-start md:flex-row justify-between md:ml-[180px]">
         
         {/* Image Section */}
@@ -53,7 +53,7 @@ const Subscription = () => {
           ) : (
             /*  FORM VIEW */
             <form onSubmit={handleSubmit}>
-              <h2 className="font-roboto-serif text-black text-xl md:text-3xl font-nunito font-bold mb-4">
+              <h2 className="font-nunito-sans text-black text-xl md:text-3xl font-nunito font-bold mb-4">
                 Suscribe now and get the best reviews
               </h2>
               <p className="mb-6">Receive weekly news and the latest reviews</p>
@@ -67,8 +67,8 @@ const Subscription = () => {
                 />
                 <button
                   type="submit"
-                  className="bg-[#40749C] border border-[#40749C] text-white font-semibold px-0 py-2 rounded-lg w-[15%] min-w-[108px] md:w-[135px]
-                            hover:bg-white hover:text-[#40749C] hover:border-[#40749C] transition-colors duration-300 ease-in-out"
+                  className="bg-[#46B69B] border border-[#46B69B] text-white font-semibold px-0 py-2 rounded-lg w-[15%] min-w-[108px] md:w-[135px]
+                            hover:bg-white hover:text-[#46B69B] hover:border-[#46B69B] transition-colors duration-300 ease-in-out"
                 >
                   Suscribe
                 </button>

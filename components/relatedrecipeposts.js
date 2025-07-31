@@ -54,7 +54,7 @@ export default function RelatedPost({
             <Link
               href={`/category/${category.slug?.current}`}
               onClick={(e) => e.stopPropagation()}
-              className="relative z-10 inline-flex items-center justify-center p-2 rounded-lg text-xs font-semibold leading-normal bg-[#E5EFF6] text-[#40749C] mr-2 mb-2 hover:bg-[#d1e3f8] transition-colors"
+              className="relative z-10 inline-flex items-center justify-center p-2 rounded-lg text-xs font-semibold leading-normal bg-[#E5EFF6] text-[#46B69B] mr-2 mb-2 hover:bg-[#d1e3f8] transition-colors"
             >
               {category.title || "Uncategorized"}
             </Link>

@@ -120,7 +120,7 @@ const IngredientList: React.FC<IngredientListProps> = ({ ingredients, modal_titl
 
   return (
     <div className="mx-auto mt-6 max-w-3xl p-0 ">
-      <h2 className="mb-1 hidden text-xl font-roboto-serif font-bold text-black sm:block">
+      <h2 className="mb-1 hidden text-xl font-nunito-sans font-bold text-black sm:block">
         Recommended products
       </h2>
       <p className="text-black font-medium mb-3 ads_disclosure text-xs hidden md:block">
@@ -184,7 +184,7 @@ const IngredientList: React.FC<IngredientListProps> = ({ ingredients, modal_titl
       {/* Desktop Wishlist Button */}
       <a
         href="#"
-        className="bg-[#40749C] border border-[#40749C] text-white mt-4 hidden flex-[1_0_0] items-center justify-center gap-2 rounded-lg p-4 text-base font-semibold hover:bg-white hover:text-[#40749C] hover:border-[#40749C]
+        className="bg-[#46B69B] border border-[#46B69B] text-white mt-4 hidden flex-[1_0_0] items-center justify-center gap-2 rounded-lg p-4 text-base font-semibold hover:bg-white hover:text-[#46B69B] hover:border-[#46B69B]
                         transition-colors duration-300 ease-in-out sm:flex">
         Get this wishlist
       </a>
@@ -209,7 +209,7 @@ const IngredientList: React.FC<IngredientListProps> = ({ ingredients, modal_titl
               flex: "1 1 0",
               height: 51,
               padding: 16,
-              background: "#40749C",
+              background: "#46B69B",
               borderRadius: 8,
               justifyContent: "center",
               alignItems: "center",

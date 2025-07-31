@@ -32,7 +32,7 @@ export default function BannerRelatedRecipes({ relatedRecipes }) {
       <div className="archive-link flex w-full justify-center px-0 pr-4 sm:px-[30px] pb-[24px]">
                 <Link
                   href="/archive"
-                  className="bg-white border border-[#40749C] hover:border-[#40749C] text-[#40749C] hover:bg-[#40749C] hover:text-white transition-colors duration-300 ease-in-out relative inline-flex w-full max-w-[100%] items-center justify-center gap-1 rounded-md px-4 py-3 text-center text-sm font-medium focus:z-20 disabled:pointer-events-none disabled:opacity-40 md:w-auto"
+                  className="bg-white border border-[#46B69B] hover:border-[#46B69B] text-[#46B69B] hover:bg-[#46B69B] hover:text-white transition-colors duration-300 ease-in-out relative inline-flex w-full max-w-[100%] items-center justify-center gap-1 rounded-md px-4 py-3 text-center text-sm font-medium focus:z-20 disabled:pointer-events-none disabled:opacity-40 md:w-auto"
                   style={{
                     borderRadius: "8px",
                     fontSize: "16px",
@@ -53,7 +53,7 @@ export default function BannerRelatedRecipes({ relatedRecipes }) {
       <div className="hidden md:flex flex-col w-full max-w-[1200px] px-4 py-6 rounded-2xl gap-6 bg-white">
         <div className="w-full flex justify-start items-center gap-4">
           <div className="w-12 h-12" aria-hidden="true"></div>
-          <h2 className="text-black text-2xl font-bold font-roboto-serif leading-9">
+          <h2 className="text-black text-2xl font-bold font-nunito-sans leading-9">
             Related content
           </h2>
         </div>
@@ -121,7 +121,7 @@ export default function BannerRelatedRecipes({ relatedRecipes }) {
         <div className="w-full flex justify-center items-center">
           <Link
             href="/archive"
-            className="inline-flex justify-center items-center px-4 py-3 border border-[#40749C] rounded-lg text-[#40749C] text-base font-semibold"
+            className="inline-flex justify-center items-center px-4 py-3 border border-[#46B69B] rounded-lg text-[#46B69B] text-base font-semibold"
           >
             See all content
           </Link>
@@ -130,7 +130,7 @@ export default function BannerRelatedRecipes({ relatedRecipes }) {
 
       {/* ========================= MOBILE ========================= */}
       <div className="md:hidden w-full pb-6 flex flex-col gap-6">
-        <h2 className="text-black text-xl font-bold font-roboto-serif">
+        <h2 className="text-black text-xl font-bold font-nunito-sans">
           Related content
         </h2>
 
@@ -148,7 +148,7 @@ export default function BannerRelatedRecipes({ relatedRecipes }) {
       <div className="archive-link flex w-full justify-center px-0 pr-4 sm:px-[30px] pb-[24px] pt-[24px]">
                 <Link
                   href="/archive"
-                  className="bg-white border border-[#40749C] hover:border-[#40749C] text-[#40749C] hover:bg-[#40749C] hover:text-white transition-colors duration-300 ease-in-out relative inline-flex w-full max-w-[100%] items-center justify-center gap-1 rounded-md px-4 py-3 text-center text-sm font-medium focus:z-20 disabled:pointer-events-none disabled:opacity-40 md:w-auto"
+                  className="bg-white border border-[#46B69B] hover:border-[#46B69B] text-[#46B69B] hover:bg-[#46B69B] hover:text-white transition-colors duration-300 ease-in-out relative inline-flex w-full max-w-[100%] items-center justify-center gap-1 rounded-md px-4 py-3 text-center text-sm font-medium focus:z-20 disabled:pointer-events-none disabled:opacity-40 md:w-auto"
                   style={{
                     borderRadius: "8px",
                     fontSize: "16px",

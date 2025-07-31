@@ -36,7 +36,7 @@ const CategoryList: React.FC<CategoryListProps> = ({
                          h-[72px] md:h-[88px]" // CHANGED: Set explicit responsive heights
             >
               <span
-                className="text-center text-[#40749C] 
+                className="text-center text-[#46B69B] 
                            text-xs font-medium 
                            md:text-base md:font-bold"
               >
@@ -54,11 +54,11 @@ const CategoryList: React.FC<CategoryListProps> = ({
           className="flex"
         >
           <div
-            className="w-full bg-[#F1F6F9] rounded-lg flex flex-col justify-center items-center p-[10px] gap-[10px]
+            className="w-full bg-[#EFFAF7] rounded-lg flex flex-col justify-center items-center p-[10px] gap-[10px]
                        h-[72px] md:h-[88px]" // CHANGED: Set explicit responsive heights
           >
             <span
-              className="text-center text-[#40749C] 
+              className="text-center text-[#46B69B] 
                          text-xs font-medium 
                          md:text-base md:font-bold"
             >

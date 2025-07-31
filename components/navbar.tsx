@@ -193,10 +193,10 @@ function NavbarContent({
           <Link href="/" passHref>
             <div className="flex cursor-pointer items-center">
               <Image
-                src="/img/SBL_H.svg"
+                src="/img/SL_H.svg"
                 alt="Logo"
-                width={132}
-                height={43}
+                width={203}
+                height={44}
                 priority={true}
               />
             </div>
@@ -209,7 +209,7 @@ function NavbarContent({
               <Fragment key={`${item.label}${index}`}>
                 <Link
                   href={item.href}
-                  className="text-sm text-black hover:text-[#40749C] active:text-[#40749C]"
+                  className="text-sm text-black"
                   style={{
                     fontSize: "14px",
                     fontStyle: "normal",
@@ -225,7 +225,7 @@ function NavbarContent({
               className="relative inline-block text-center"
               ref={dropdownRef}>
               <button
-                className="inline-flex w-full justify-center bg-white px-0 py-2 text-sm text-black hover:text-[#40749C] active:text-[#40749C] focus:outline-none"
+                className="inline-flex w-full justify-center bg-white px-0 py-2 text-sm text-black focus:outline-none"
                 style={{
                   fontSize: "14px",
                   fontStyle: "normal",
@@ -263,7 +263,7 @@ function NavbarContent({
                     <Link
                       key={`${item.label}${index}`}
                       href={item.href}
-                      className="block px-2 py-2 text-sm text-[#000000] hover:bg-gray-100 hover:text-[#40749C] active:text-[#40749C]"
+                      className="block px-2 py-2 text-sm text-[#000000] hover:bg-gray-100"
                       role="menuitem"
                       onClick={() => setIsDropdownOpen(false)}
                       style={{
@@ -334,9 +334,9 @@ function NavbarContent({
           {/* Logo */}
           <Link href="/" passHref>
             <Image
-              src="/img/SBL_H.svg"
+              src="/img/SL_H.svg"
               alt="Logo"
-              width={110}
+              width={166}
               height={36}
               priority={true}
             />
@@ -449,9 +449,9 @@ function NavbarContent({
               {/* Logo */}
               <Link href="/" passHref>
                 <Image
-                  src="/img/SBL_H.svg"
+                  src="/img/SL_H.svg"
                   alt="Logo"
-                  width={110}
+                  width={166}
                   height={36}
                   priority={true}
                 />

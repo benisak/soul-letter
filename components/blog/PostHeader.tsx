@@ -12,7 +12,7 @@ export default function PostHeader({ title, categories }: PostHeaderProps) {
       <div className="flex flex-wrap w-full">
         <CategoryLabel categories={categories} />
       </div>
-      <h2 className="w-full font-roboto-serif text-2xl font-bold tracking-tight text-[#1F1F1F] dark:text-[#F6F6F6] lg:text-4xl lg:leading-snug">
+      <h2 className="w-full font-nunito-sans text-2xl font-bold tracking-tight text-[#1F1F1F] dark:text-[#F6F6F6] lg:text-4xl lg:leading-snug">
         {title}
       </h2>
 

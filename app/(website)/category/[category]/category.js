@@ -15,7 +15,7 @@ export default function Author(props) {
     <div className="bg-white min-h-screen">
       <div className="pt-14 pb-10 lg:gap-[55px] px-4 md:px-[160px]">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="font-roboto-serif text-center font-bold text-[#1F1F1F] dark:text-white text-[24px] leading-normal lg:text-[36px]">
+          <h1 className="font-nunito-sans text-center font-bold text-[#1F1F1F] dark:text-white text-[24px] leading-normal lg:text-[36px]">
             {title}
           </h1>
 

@@ -1,7 +1,7 @@
 import "@/styles/tailwind.css";
 import { Providers } from "./providers";
 import { cx } from "@/utils/all";
-import { Inter, Lora, Roboto_Serif } from "next/font/google";
+import { Inter, Lora, Roboto_Serif, Nunito_Sans } from "next/font/google";
 import {
  
   getCategorizedPostCategories,
@@ -26,6 +26,10 @@ const robotoSerif = Roboto_Serif({
   variable: "--font-roboto-serif",
 });
 
+const nunitoSans = Nunito_Sans({
+  subsets: ["latin"],
+  variable: "--font-nunito-sans"
+});
 
 async function sharedMetaData(params: any) {
   const settings = await getSettings();
@@ -36,8 +40,8 @@ async function sharedMetaData(params: any) {
     title: {
       default:
         settings?.title ||
-        "SoulBookList: A Guide to Religious and Spiritual Books",
-      template: "%s | Soul BookList: A Guide to Religious and Spiritual Books"
+        "SoulLetter: A Guide to Religious and Spiritual Books",
+      template: "%s | Soul Letter: A Guide to Religious and Spiritual Books"
     },
     description:
       settings?.description ||
@@ -57,7 +61,7 @@ async function sharedMetaData(params: any) {
       ]
     },
     twitter: {
-      title: settings?.title || "Soul BookList: A Guide to Religious and Spiritual Books",
+      title: settings?.title || "Soul Letter: A Guide to Religious and Spiritual Books",
       card: "summary_large_image"
     },
     robots: {
@@ -66,13 +70,13 @@ async function sharedMetaData(params: any) {
     }
   };
 }
-const siteUrl = "https://soulbooklist.vercel.app/"; // Ensure this is correct
+const siteUrl = "https://www.soul-letter.com/"; // Ensure this is correct
 export async function generateMetadata({ params }: { params: any }) {
   const settings = await getSettings();
 
-  const siteTitle = "Soul BookList: A Guide to Religious and Spiritual Books";
+  const siteTitle = "Soul Letter: A Guide to Religious and Spiritual Books";
   const siteDescription =
-    "Discover a curated collection of religious and spiritual books at Soul BookList. Explore literature from diverse faiths to deepen your understanding, inspire your spiritual journey, and connect with a community of believers."
+    "Discover a curated collection of religious and spiritual books at Soul Letter. Explore literature from diverse faiths to deepen your understanding, inspire your spiritual journey, and connect with a community of believers."
   const keywords = [
     "movie reviews", 
     "movie ratings",
@@ -123,8 +127,8 @@ export async function generateMetadata({ params }: { params: any }) {
       images: [ogImage]
     },
     icons: {
-      icon: "/img/FaviconSBL.svg",
-      apple: "/img/FaviconSBL.svg"
+      icon: "/img/FaviconSL.svg",
+      apple: "/img/FaviconSL.svg"
     }
   };
 }
@@ -150,7 +154,7 @@ export default async function Layout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cx(inter.variable, lora.variable, robotoSerif.variable)}>
+      className={cx(inter.variable, lora.variable, robotoSerif.variable, nunitoSans.variable)}>
        <head>
         {/* Google Tag Manager */}
         <script
@@ -164,8 +168,8 @@ export default async function Layout({
         />
         {/* End Google Tag Manager */}
         {/* Custom favicon links */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/img/FaviconSBL.svg" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/img/FaviconSBL.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/FaviconSL.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/FaviconSL.svg" />
         </head> 
       <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         {/* Google Tag Manager (noscript) */}

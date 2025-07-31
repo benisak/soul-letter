@@ -11,7 +11,7 @@ export default function Label(props) {
         "inline-flex items-center justify-center p-2 rounded-lg text-xs font-semibold leading-normal",
         
         // Colors from the old component, which match the new design's intent
-        "bg-[#E5EFF6] text-[#40749C]",
+        "bg-[#F1FFFC] text-[#46B69B]",
         
         // Preserving the existing margin logic
         "mr-2 mb-2",
