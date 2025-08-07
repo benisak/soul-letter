@@ -41,10 +41,9 @@ export default async function HomeLifeStyle() {
         <div className="pb-6 pt-8">
           {featuredPost.length >= 6 && (
             <>
-              <h2 className="text-black-500 font-nunito-sans font-bold text-[20px] leading-normal md:text-[30px] md:leading-[36px]">
-                <strong>Recommended</strong>
+              <h2 className="text-[var(--Black-500,#1F1F1F)] font-nunito-sans font-bold text-[20px] leading-normal md:text-[30px] md:leading-[36px]">
+                Recommended
               </h2>
-
 
               {/* 3-column grid – NO auto-rows-fr */}
               <div className="mb-10 mt-[32px] grid w-full gap-[32px] md:grid-cols-3">
